@@ -1,6 +1,6 @@
 body {
     color: white;
-    background: black;
+    background: rgb(255, 253, 239);
     margim: 0px;
     font-family: "Chakra Petch", sans-serif;
 }
@@ -8,11 +8,11 @@ body {
 header{
     border-bottom: solid 2px rgb (42,122, 228);
     padding: 20px;
-    color: rgb(42,122,228);
+    color: rgb(68, 111, 253);
 }
 
-section{
-    background:rgb(184, 156, 213);
+.chamada {
+    background:rgb(255, 215, 234);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
@@ -29,4 +29,16 @@ h1 {
 
 p {
     font-size: 20px;
+}
+img {
+height:200px;
+}
+.categoria-videos {
+    display:flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
 }
